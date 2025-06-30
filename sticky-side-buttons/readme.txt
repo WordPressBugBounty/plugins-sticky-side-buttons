@@ -2,11 +2,12 @@
 Contributors: EnigmaWeb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CEJ9HFWJ94BG4
 Tags: sticky, buttons, contact, side, social buttons, email button, phone button, floating
-Requires at least: 2.7
-Tested up to: 5.8.1
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+Stable tag: 2.0.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Flexible button creator allowing you to stick floating buttons to the side of your site.
 
@@ -50,7 +51,7 @@ If you've tried all the obvious stuff and it's still not working please request 
 
 = Can I contribute to this plugin? =
 
-Absolutely! Please create a pull request on [GitHub here.](https://github.com/EnigmaWeb/sticky-side-buttons)
+Absolutely! Please create a pull request on [GitHub here.](https://github.com/maevelander/sticky-side-buttons)
 
 
 == Screenshots ==
@@ -64,6 +65,19 @@ Absolutely! Please create a pull request on [GitHub here.](https://github.com/En
 
 
 == Changelog ==
+
+= 2.0.0 =
+* Updated to WordPress 6.4+ and PHP 7.4+ minimum requirements
+* Comprehensive security improvements (CSRF protection, input sanitisation, output escaping)
+* Updated FontAwesome from 5.5.0 to 6.7.2 for latest icons and performance
+* Major accessibility improvements (WCAG 2.1 compliance, ARIA labels, keyboard navigation)
+* Enhanced screen reader support and focus indicators
+* Improved admin interface with better error handling
+* Added proper uninstall functionality
+* Enhanced code organisation and WordPress coding standards compliance
+* Fixed button creation and management issues in admin
+* Fixed General Settings save functionality
+* Added proper capability checks and access controls
 
 = 1.0.9 =
 * Removes Google+ share button
@@ -101,6 +115,9 @@ Absolutely! Please create a pull request on [GitHub here.](https://github.com/En
 * Initial release
 
 == Upgrade Notice ==
+
+= 2.0.0 =
+* Major modernisation update with security and accessibility improvements. Requires WordPress 6.4+ and PHP 7.4+. Please test in staging environment before updating production sites.
 
 = 1.0.9 =
 * Removes Google+ share button
